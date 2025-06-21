@@ -24,7 +24,7 @@ function App() {
           className={`tab-button ${activeTab === 'basic' ? 'active' : ''}`}
           onClick={() => setActiveTab('basic')}
         >
-          Basic Profile
+          Basic Info
         </button>
         <button
           className={`tab-button ${activeTab === 'job' ? 'active' : ''}`}
@@ -48,7 +48,7 @@ function App() {
               <strong>Name:</strong> Jun Kobayashi
             </div>
             <div className="info-item">
-              <strong>Education:</strong> Graduate of Iida OIDE High School
+              <strong>Education:</strong> 飯田OIDE長姫高校
             </div>
             <div className="info-item">
               <strong>Hobbies:</strong>
@@ -78,15 +78,15 @@ function App() {
               <div className="skills-container">
                 <div className="skill-item">
                   <span className="skill-name">JavaScript</span>
-                  <div className="stars">★★★★★</div>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-name">React</span>
                   <div className="stars">★★★★☆</div>
                 </div>
                 <div className="skill-item">
+                  <span className="skill-name">React</span>
+                  <div className="stars">★★☆☆☆</div>
+                </div>
+                <div className="skill-item">
                   <span className="skill-name">HTML</span>
-                  <div className="stars">★★★★★</div>
+                  <div className="stars">★★★★☆</div>
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">CSS</span>
@@ -98,7 +98,7 @@ function App() {
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">Java</span>
-                  <div className="stars">★★☆☆☆</div>
+                  <div className="stars">★★★★☆</div>
                 </div>
               </div>
             </div>

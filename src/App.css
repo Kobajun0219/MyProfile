@@ -43,8 +43,8 @@
 
 .profile-container {
   max-width: 600px;
-  margin: 50px auto;
-  padding: 30px;
+  margin: 30px auto;
+  padding: 20px;
   background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@
 .profile-container h1 {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 2.5rem;
   border-bottom: 3px solid #3498db;
   padding-bottom: 10px;
@@ -63,7 +63,7 @@
 .profile-picture-section {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .profile-picture {
@@ -98,7 +98,7 @@
 .tab-navigation {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   background-color: white;
   border-radius: 8px;
   padding: 5px;
@@ -131,24 +131,24 @@
 }
 
 .tab-content {
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .profile-info {
   background-color: white;
-  padding: 25px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .info-item {
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 12px;
+  padding: 10px;
   background-color: #f8f9fa;
   border-left: 4px solid #3498db;
   border-radius: 4px;
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .info-item strong {
@@ -160,14 +160,14 @@
 .hobbies-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .hobby-tag {
   background-color: #e74c3c;
   color: white;
-  padding: 6px 12px;
+  padding: 4px 10px;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -175,16 +175,16 @@
 }
 
 .contact-list {
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
   padding: 0;
   list-style: none;
 }
 
 .contact-list li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #555;
   font-size: 1rem;
-  padding: 8px 0;
+  padding: 6px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -194,14 +194,14 @@
 
 .social-links {
   display: flex;
-  gap: 15px;
-  margin-top: 10px;
+  gap: 12px;
+  margin-top: 8px;
 }
 
 .social-link {
   color: #3498db;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border: 2px solid #3498db;
   border-radius: 20px;
   font-weight: 500;
@@ -216,14 +216,14 @@
 .additional-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .skill-tag {
   background-color: #27ae60;
   color: white;
-  padding: 6px 12px;
+  padding: 4px 10px;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -231,12 +231,12 @@
 }
 
 .job-list {
-  margin: 10px 0 0 20px;
+  margin: 8px 0 0 15px;
   padding: 0;
 }
 
 .job-list li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #555;
   font-size: 1rem;
 }
@@ -244,15 +244,15 @@
 .skills-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-top: 10px;
+  gap: 8px;
+  margin-top: 8px;
 }
 
 .skill-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: white;
   border-radius: 6px;
   border: 1px solid #e1e8ed;
@@ -273,14 +273,14 @@
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
   .profile-container {
-    margin: 20px 15px;
-    padding: 20px;
+    margin: 15px 10px;
+    padding: 15px;
     border-radius: 8px;
   }
 
   .profile-container h1 {
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   .profile-picture {
@@ -298,7 +298,7 @@
   }
 
   .tab-navigation {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 3px;
   }
 
@@ -308,26 +308,26 @@
   }
 
   .profile-info {
-    padding: 20px;
+    padding: 15px;
   }
 
   .info-item {
-    padding: 12px;
+    padding: 10px;
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .hobby-tag {
-    padding: 8px 14px;
+    padding: 6px 12px;
     font-size: 0.85rem;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
   }
 
   .skill-item {
-    padding: 12px;
+    padding: 10px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 6px;
   }
 
   .skill-name {
@@ -340,17 +340,17 @@
   }
 
   .job-list {
-    margin-left: 15px;
+    margin-left: 12px;
   }
 
   .job-list li {
     font-size: 0.95rem;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
 
   .social-links {
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
   }
 
   .social-link {
@@ -361,13 +361,13 @@
 /* iPhone 15 and smaller devices */
 @media (max-width: 430px) {
   .profile-container {
-    margin: 10px 10px;
-    padding: 15px;
+    margin: 10px 8px;
+    padding: 12px;
   }
 
   .profile-container h1 {
     font-size: 1.8rem;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
 
   .profile-picture {
@@ -384,7 +384,7 @@
   }
 
   .tab-navigation {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
   .tab-button {
@@ -393,22 +393,22 @@
   }
 
   .profile-info {
-    padding: 15px;
+    padding: 12px;
   }
 
   .info-item {
-    padding: 10px;
+    padding: 8px;
     font-size: 0.95rem;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 
   .hobby-tag {
-    padding: 6px 12px;
+    padding: 4px 8px;
     font-size: 0.8rem;
   }
 
   .skill-item {
-    padding: 10px;
+    padding: 8px;
   }
 
   .skill-name {
@@ -431,11 +431,11 @@
 /* Landscape orientation for mobile */
 @media (max-width: 768px) and (orientation: landscape) {
   .profile-container {
-    margin: 10px 20px;
+    margin: 8px 15px;
   }
 
   .profile-picture-section {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .profile-picture {
